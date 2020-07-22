@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+export MANAGEMENT_LINUX_HOST_1="${management_linux_1_hostname_private}"
+export MANAGEMENT_LINUX_HOST_1_USER="${management_linux_1_user}"
+
+MANAGEMENT_LINUX_HOST=$MANAGEMENT_LINUX_HOST_1
+MANAGEMENT_LINUX_HOST_USER=$MANAGEMENT_LINUX_HOST_1_USER
+alias sshmgt="ssh $MANAGEMENT_LINUX_HOST_USER@$MANAGEMENT_LINUX_HOST"

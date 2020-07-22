@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+export BASTION_LINUX_HOST_1="${bastion_linux_1_hostname_public}"
+export BASTION_LINUX_HOST_1_USER="${bastion_linux_1_user}"
+export BASTION_WINDOWS_HOST_1="${bastion_windows_1_hostname_public}"
+export BASTION_WINDOWS_HOST_1USER="${bastion_windows_1_user}"

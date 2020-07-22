@@ -1,0 +1,13 @@
+[all_linux:children]
+commandcentral
+dbc
+
+[all_webmethods:children]
+commandcentral
+dbc
+
+[dbc:children]
+commandcentral
+
+[commandcentral]
+${commandcentral_servers}

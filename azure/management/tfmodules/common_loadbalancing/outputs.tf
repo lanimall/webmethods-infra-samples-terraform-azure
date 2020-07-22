@@ -1,0 +1,27 @@
+output "appgateway_backend_address_pool_id_commandcentral" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_commandcentral
+}
+
+output "appgateway_backend_address_pool_id_integrationserver" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_integrationserver
+}
+
+output "appgateway_backend_address_pool_id_tnserver" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_tnserver
+}
+
+output "appgateway_backend_address_pool_id_mws" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_mws
+}
+
+output "appgateway_backend_address_pool_id_apigateway" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_apigateway
+}
+
+output "appgateway_backend_address_pool_id_deployer" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_deployer
+}
+
+output "appgateway_backend_address_pool_id_jenkins" {
+  value = data.terraform_remote_state.base_loadbalancing.outputs.managementexternal_appgateway_backend_address_pool_id_jenkins
+}
