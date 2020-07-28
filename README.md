@@ -1,5 +1,7 @@
 # webmethods-infra-automation-terraform
 
+Author: Fabien Sanglier (fabien.sanglier@softwareaggov.com)
+
 This is a DEMO project to automate and build webmethods environments in the cloud.
 I will try to support both AWS and Azure via terraform providers (and maybe other) whenever possible...
 
