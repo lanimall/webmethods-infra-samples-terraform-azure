@@ -1,4 +1,4 @@
-# webmethods-infra-automation-terraform-azure
+# webmethods-infra-samples-terraform-azure
 
 Author: Fabien Sanglier (fabien.sanglier@softwareaggov.com)
 
