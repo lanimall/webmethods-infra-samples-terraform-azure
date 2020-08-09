@@ -1,15 +1,3 @@
-variable "cloud_environment" {
-  description = "azure cloud environment to use"
-}
-
-variable "cloud_subscription" {
-  description = "azure cloud subscription to use"
-}
-
-variable "cloud_region" {
-  description = "azure cloud region to to use for the project"
-}
-
 variable "project_name" {
   description = "General Project Name (for tagging)"
 }
